@@ -1,0 +1,682 @@
+[
+ {
+  "input": {
+   "pitcher_id": "P10",
+   "pitch_type": "FK",
+   "velocity": 136.3,
+   "pitch_count": 24,
+   "fatigue": 0.203,
+   "target_x": -0.667,
+   "target_y": -0.667,
+   "balls": 1,
+   "strikes": 2,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.27074411511421204,
+  "calibrated": 0.27074411511421204
+ },
+ {
+  "input": {
+   "pitcher_id": "P06",
+   "pitch_type": "CB",
+   "velocity": 124.8,
+   "pitch_count": 75,
+   "fatigue": 0.73,
+   "target_x": 0.0,
+   "target_y": -0.667,
+   "balls": 0,
+   "strikes": 0,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.30197739601135254,
+  "calibrated": 0.30197739601135254
+ },
+ {
+  "input": {
+   "pitcher_id": "P08",
+   "pitch_type": "FK",
+   "velocity": 142.3,
+   "pitch_count": 1,
+   "fatigue": 0.032,
+   "target_x": -0.667,
+   "target_y": 0.0,
+   "balls": 0,
+   "strikes": 0,
+   "batter_hand": "L",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.19692862033843994,
+  "calibrated": 0.19692862033843994
+ },
+ {
+  "input": {
+   "pitcher_id": "P10",
+   "pitch_type": "FK",
+   "velocity": 139.1,
+   "pitch_count": 10,
+   "fatigue": 0.135,
+   "target_x": 0.667,
+   "target_y": 0.0,
+   "balls": 0,
+   "strikes": 0,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.3048226535320282,
+  "calibrated": 0.3048226535320282
+ },
+ {
+  "input": {
+   "pitcher_id": "P03",
+   "pitch_type": "CB",
+   "velocity": 121.7,
+   "pitch_count": 71,
+   "fatigue": 0.738,
+   "target_x": 0.667,
+   "target_y": -0.667,
+   "balls": 0,
+   "strikes": 0,
+   "batter_hand": "L",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.23136986792087555,
+  "calibrated": 0.23136986792087555
+ },
+ {
+  "input": {
+   "pitcher_id": "P09",
+   "pitch_type": "CH",
+   "velocity": 137.6,
+   "pitch_count": 79,
+   "fatigue": 0.812,
+   "target_x": 0.0,
+   "target_y": -0.667,
+   "balls": 1,
+   "strikes": 0,
+   "batter_hand": "L",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.4284948706626892,
+  "calibrated": 0.4284948706626892
+ },
+ {
+  "input": {
+   "pitcher_id": "P06",
+   "pitch_type": "CB",
+   "velocity": 127.7,
+   "pitch_count": 20,
+   "fatigue": 0.266,
+   "target_x": 0.0,
+   "target_y": -0.667,
+   "balls": 2,
+   "strikes": 2,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.41283077001571655,
+  "calibrated": 0.41283077001571655
+ },
+ {
+  "input": {
+   "pitcher_id": "P17",
+   "pitch_type": "CB",
+   "velocity": 120.7,
+   "pitch_count": 21,
+   "fatigue": 0.542,
+   "target_x": -0.667,
+   "target_y": 0.0,
+   "balls": 2,
+   "strikes": 2,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.2050032615661621,
+  "calibrated": 0.2050032615661621
+ },
+ {
+  "input": {
+   "pitcher_id": "P01",
+   "pitch_type": "FK",
+   "velocity": 137.0,
+   "pitch_count": 86,
+   "fatigue": 0.748,
+   "target_x": -0.667,
+   "target_y": -0.667,
+   "balls": 0,
+   "strikes": 2,
+   "batter_hand": "L",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.17736166715621948,
+  "calibrated": 0.17736166715621948
+ },
+ {
+  "input": {
+   "pitcher_id": "P03",
+   "pitch_type": "CB",
+   "velocity": 123.7,
+   "pitch_count": 64,
+   "fatigue": 0.711,
+   "target_x": 0.667,
+   "target_y": 0.667,
+   "balls": 0,
+   "strikes": 1,
+   "batter_hand": "L",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.24126987159252167,
+  "calibrated": 0.24126987159252167
+ },
+ {
+  "input": {
+   "pitcher_id": "P17",
+   "pitch_type": "CH",
+   "velocity": 130.1,
+   "pitch_count": 4,
+   "fatigue": 0.132,
+   "target_x": -0.667,
+   "target_y": 0.0,
+   "balls": 0,
+   "strikes": 0,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.339245468378067,
+  "calibrated": 0.339245468378067
+ },
+ {
+  "input": {
+   "pitcher_id": "P01",
+   "pitch_type": "SL",
+   "velocity": 138.1,
+   "pitch_count": 74,
+   "fatigue": 0.67,
+   "target_x": 0.667,
+   "target_y": 0.0,
+   "balls": 0,
+   "strikes": 1,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.2878226041793823,
+  "calibrated": 0.2878226041793823
+ },
+ {
+  "input": {
+   "pitcher_id": "P19",
+   "pitch_type": "CH",
+   "velocity": 128.0,
+   "pitch_count": 13,
+   "fatigue": 0.352,
+   "target_x": 0.667,
+   "target_y": -0.667,
+   "balls": 0,
+   "strikes": 1,
+   "batter_hand": "R",
+   "pitcher_hand": "L"
+  },
+  "raw": 0.38083934783935547,
+  "calibrated": 0.38083934783935547
+ },
+ {
+  "input": {
+   "pitcher_id": "P09",
+   "pitch_type": "CH",
+   "velocity": 142.3,
+   "pitch_count": 103,
+   "fatigue": 0.982,
+   "target_x": 0.667,
+   "target_y": 0.0,
+   "balls": 2,
+   "strikes": 0,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.3357549011707306,
+  "calibrated": 0.3357549011707306
+ },
+ {
+  "input": {
+   "pitcher_id": "P02",
+   "pitch_type": "CB",
+   "velocity": 121.1,
+   "pitch_count": 34,
+   "fatigue": 0.311,
+   "target_x": -0.667,
+   "target_y": 0.667,
+   "balls": 0,
+   "strikes": 1,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.1789236068725586,
+  "calibrated": 0.1789236068725586
+ },
+ {
+  "input": {
+   "pitcher_id": "P07",
+   "pitch_type": "FK",
+   "velocity": 131.1,
+   "pitch_count": 52,
+   "fatigue": 0.491,
+   "target_x": 0.0,
+   "target_y": 0.667,
+   "balls": 3,
+   "strikes": 1,
+   "batter_hand": "L",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.15409326553344727,
+  "calibrated": 0.15409326553344727
+ },
+ {
+  "input": {
+   "pitcher_id": "P11",
+   "pitch_type": "FF",
+   "velocity": 139.1,
+   "pitch_count": 87,
+   "fatigue": 0.68,
+   "target_x": -0.667,
+   "target_y": 0.667,
+   "balls": 1,
+   "strikes": 2,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.3813493549823761,
+  "calibrated": 0.3813493549823761
+ },
+ {
+  "input": {
+   "pitcher_id": "P04",
+   "pitch_type": "CB",
+   "velocity": 121.5,
+   "pitch_count": 76,
+   "fatigue": 0.764,
+   "target_x": 0.667,
+   "target_y": 0.0,
+   "balls": 0,
+   "strikes": 0,
+   "batter_hand": "R",
+   "pitcher_hand": "L"
+  },
+  "raw": 0.30627936124801636,
+  "calibrated": 0.30627936124801636
+ },
+ {
+  "input": {
+   "pitcher_id": "P07",
+   "pitch_type": "CB",
+   "velocity": 119.6,
+   "pitch_count": 20,
+   "fatigue": 0.249,
+   "target_x": -0.667,
+   "target_y": -0.667,
+   "balls": 3,
+   "strikes": 2,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.2806312143802643,
+  "calibrated": 0.2806312143802643
+ },
+ {
+  "input": {
+   "pitcher_id": "P16",
+   "pitch_type": "CH",
+   "velocity": 140.0,
+   "pitch_count": 4,
+   "fatigue": 0.116,
+   "target_x": -0.667,
+   "target_y": 0.667,
+   "balls": 0,
+   "strikes": 0,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.2895004451274872,
+  "calibrated": 0.2895004451274872
+ },
+ {
+  "input": {
+   "pitcher_id": "P18",
+   "pitch_type": "FK",
+   "velocity": 143.6,
+   "pitch_count": 35,
+   "fatigue": 0.963,
+   "target_x": 0.667,
+   "target_y": -0.667,
+   "balls": 0,
+   "strikes": 1,
+   "batter_hand": "R",
+   "pitcher_hand": "L"
+  },
+  "raw": 0.21268320083618164,
+  "calibrated": 0.21268320083618164
+ },
+ {
+  "input": {
+   "pitcher_id": "P20",
+   "pitch_type": "FF",
+   "velocity": 152.1,
+   "pitch_count": 19,
+   "fatigue": 0.474,
+   "target_x": 0.0,
+   "target_y": -0.667,
+   "balls": 0,
+   "strikes": 2,
+   "batter_hand": "R",
+   "pitcher_hand": "L"
+  },
+  "raw": 0.5267480611801147,
+  "calibrated": 0.5267480611801147
+ },
+ {
+  "input": {
+   "pitcher_id": "P03",
+   "pitch_type": "CB",
+   "velocity": 115.9,
+   "pitch_count": 7,
+   "fatigue": 0.002,
+   "target_x": 0.667,
+   "target_y": 0.0,
+   "balls": 2,
+   "strikes": 2,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.41313230991363525,
+  "calibrated": 0.41313230991363525
+ },
+ {
+  "input": {
+   "pitcher_id": "P09",
+   "pitch_type": "SL",
+   "velocity": 145.0,
+   "pitch_count": 23,
+   "fatigue": 0.227,
+   "target_x": -0.667,
+   "target_y": -0.667,
+   "balls": 1,
+   "strikes": 2,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.6021620631217957,
+  "calibrated": 0.6021620631217957
+ },
+ {
+  "input": {
+   "pitcher_id": "P17",
+   "pitch_type": "FF",
+   "velocity": 147.0,
+   "pitch_count": 28,
+   "fatigue": 0.864,
+   "target_x": -0.667,
+   "target_y": 0.0,
+   "balls": 1,
+   "strikes": 1,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.22873371839523315,
+  "calibrated": 0.22873371839523315
+ },
+ {
+  "input": {
+   "pitcher_id": "P17",
+   "pitch_type": "FK",
+   "velocity": 128.5,
+   "pitch_count": 1,
+   "fatigue": 0.084,
+   "target_x": 0.0,
+   "target_y": 0.0,
+   "balls": 3,
+   "strikes": 0,
+   "batter_hand": "L",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.24920307099819183,
+  "calibrated": 0.24920307099819183
+ },
+ {
+  "input": {
+   "pitcher_id": "P06",
+   "pitch_type": "FK",
+   "velocity": 136.8,
+   "pitch_count": 47,
+   "fatigue": 0.537,
+   "target_x": 0.667,
+   "target_y": -0.667,
+   "balls": 1,
+   "strikes": 0,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.2703971266746521,
+  "calibrated": 0.2703971266746521
+ },
+ {
+  "input": {
+   "pitcher_id": "P06",
+   "pitch_type": "CB",
+   "velocity": 128.0,
+   "pitch_count": 34,
+   "fatigue": 0.442,
+   "target_x": 0.667,
+   "target_y": -0.667,
+   "balls": 0,
+   "strikes": 2,
+   "batter_hand": "L",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.33581092953681946,
+  "calibrated": 0.33581092953681946
+ },
+ {
+  "input": {
+   "pitcher_id": "P16",
+   "pitch_type": "FF",
+   "velocity": 150.6,
+   "pitch_count": 20,
+   "fatigue": 0.461,
+   "target_x": 0.0,
+   "target_y": 0.667,
+   "balls": 1,
+   "strikes": 1,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.34648722410202026,
+  "calibrated": 0.34648722410202026
+ },
+ {
+  "input": {
+   "pitcher_id": "P05",
+   "pitch_type": "FK",
+   "velocity": 142.7,
+   "pitch_count": 71,
+   "fatigue": 0.724,
+   "target_x": -0.667,
+   "target_y": 0.667,
+   "balls": 1,
+   "strikes": 2,
+   "batter_hand": "L",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.15960799157619476,
+  "calibrated": 0.15960799157619476
+ },
+ {
+  "input": {
+   "pitcher_id": "P11",
+   "pitch_type": "FK",
+   "velocity": 132.7,
+   "pitch_count": 77,
+   "fatigue": 0.679,
+   "target_x": 0.0,
+   "target_y": -0.667,
+   "balls": 0,
+   "strikes": 2,
+   "batter_hand": "L",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.19359752535820007,
+  "calibrated": 0.19359752535820007
+ },
+ {
+  "input": {
+   "pitcher_id": "P12",
+   "pitch_type": "CB",
+   "velocity": 126.2,
+   "pitch_count": 103,
+   "fatigue": 0.979,
+   "target_x": 0.0,
+   "target_y": 0.0,
+   "balls": 0,
+   "strikes": 1,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.15796613693237305,
+  "calibrated": 0.15796613693237305
+ },
+ {
+  "input": {
+   "pitcher_id": "P20",
+   "pitch_type": "FF",
+   "velocity": 154.0,
+   "pitch_count": 16,
+   "fatigue": 0.422,
+   "target_x": -0.667,
+   "target_y": 0.667,
+   "balls": 0,
+   "strikes": 0,
+   "batter_hand": "R",
+   "pitcher_hand": "L"
+  },
+  "raw": 0.45634904503822327,
+  "calibrated": 0.45634904503822327
+ },
+ {
+  "input": {
+   "pitcher_id": "P20",
+   "pitch_type": "CB",
+   "velocity": 133.0,
+   "pitch_count": 41,
+   "fatigue": 0.857,
+   "target_x": -0.667,
+   "target_y": -0.667,
+   "balls": 0,
+   "strikes": 0,
+   "batter_hand": "L",
+   "pitcher_hand": "L"
+  },
+  "raw": 0.1997872143983841,
+  "calibrated": 0.1997872143983841
+ },
+ {
+  "input": {
+   "pitcher_id": "P14",
+   "pitch_type": "SL",
+   "velocity": 138.4,
+   "pitch_count": 17,
+   "fatigue": 0.503,
+   "target_x": 0.667,
+   "target_y": -0.667,
+   "balls": 1,
+   "strikes": 1,
+   "batter_hand": "R",
+   "pitcher_hand": "L"
+  },
+  "raw": 0.33421266078948975,
+  "calibrated": 0.33421266078948975
+ },
+ {
+  "input": {
+   "pitcher_id": "P12",
+   "pitch_type": "CB",
+   "velocity": 130.0,
+   "pitch_count": 62,
+   "fatigue": 0.579,
+   "target_x": -0.667,
+   "target_y": 0.0,
+   "balls": 0,
+   "strikes": 0,
+   "batter_hand": "L",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.17077499628067017,
+  "calibrated": 0.17077499628067017
+ },
+ {
+  "input": {
+   "pitcher_id": "P18",
+   "pitch_type": "CB",
+   "velocity": 132.9,
+   "pitch_count": 24,
+   "fatigue": 0.665,
+   "target_x": 0.667,
+   "target_y": 0.667,
+   "balls": 0,
+   "strikes": 2,
+   "batter_hand": "R",
+   "pitcher_hand": "L"
+  },
+  "raw": 0.33159130811691284,
+  "calibrated": 0.33159130811691284
+ },
+ {
+  "input": {
+   "pitcher_id": "P16",
+   "pitch_type": "SL",
+   "velocity": 139.6,
+   "pitch_count": 30,
+   "fatigue": 0.568,
+   "target_x": 0.667,
+   "target_y": -0.667,
+   "balls": 3,
+   "strikes": 1,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.12163032591342926,
+  "calibrated": 0.12163032591342926
+ },
+ {
+  "input": {
+   "pitcher_id": "P07",
+   "pitch_type": "CB",
+   "velocity": 122.9,
+   "pitch_count": 99,
+   "fatigue": 0.862,
+   "target_x": 0.0,
+   "target_y": -0.667,
+   "balls": 1,
+   "strikes": 0,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.18163985013961792,
+  "calibrated": 0.18163985013961792
+ },
+ {
+  "input": {
+   "pitcher_id": "P10",
+   "pitch_type": "CB",
+   "velocity": 129.9,
+   "pitch_count": 89,
+   "fatigue": 0.873,
+   "target_x": -0.667,
+   "target_y": -0.667,
+   "balls": 0,
+   "strikes": 0,
+   "batter_hand": "R",
+   "pitcher_hand": "R"
+  },
+  "raw": 0.18149740993976593,
+  "calibrated": 0.18149740993976593
+ }
+]

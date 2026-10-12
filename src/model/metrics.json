@@ -1,0 +1,188 @@
+{
+  "version": "demo-20261012020629",
+  "trained_at": "2026-10-12T02:06:29+00:00",
+  "data_source": "DEMO",
+  "claim": "DEMO 합성 데이터 기준 자기일관성 지표이며 실제 성능이 아님",
+  "n_rows": {
+    "train": 70467,
+    "calib": 15181,
+    "test": 14352
+  },
+  "n_games": {
+    "train": 1043,
+    "calib": 224,
+    "test": 224
+  },
+  "split": "game_date 시간순 70/15/15 (경기 단위, game_id 중복 없음)",
+  "base_rate": 0.3435,
+  "calibration_method": {
+    "type": "none",
+    "cv_brier": {
+      "none": 0.20162,
+      "platt": 0.20181,
+      "isotonic": 0.2024
+    }
+  },
+  "test": {
+    "raw": {
+      "roc_auc": 0.6792,
+      "brier": 0.2052,
+      "log_loss": 0.5977,
+      "ece": 0.0074
+    },
+    "calibrated": {
+      "roc_auc": 0.6792,
+      "brier": 0.2052,
+      "log_loss": 0.5977,
+      "ece": 0.0074
+    }
+  },
+  "train_calibrated": {
+    "roc_auc": 0.6964,
+    "brier": 0.201,
+    "log_loss": 0.5877,
+    "ece": 0.0111
+  },
+  "baselines": {
+    "constant_brier": 0.226,
+    "logistic_regression": {
+      "roc_auc": 0.6805,
+      "brier": 0.2051,
+      "log_loss": 0.5975,
+      "ece": 0.0089
+    }
+  },
+  "calibration_curve": [
+    {
+      "bin": 0,
+      "n": 77,
+      "predicted": 0.0871,
+      "observed": 0.0779
+    },
+    {
+      "bin": 1,
+      "n": 2265,
+      "predicted": 0.1629,
+      "observed": 0.1616
+    },
+    {
+      "bin": 2,
+      "n": 3796,
+      "predicted": 0.2502,
+      "observed": 0.254
+    },
+    {
+      "bin": 3,
+      "n": 3419,
+      "predicted": 0.3487,
+      "observed": 0.3372
+    },
+    {
+      "bin": 4,
+      "n": 2622,
+      "predicted": 0.4451,
+      "observed": 0.4508
+    },
+    {
+      "bin": 5,
+      "n": 1348,
+      "predicted": 0.5466,
+      "observed": 0.5364
+    },
+    {
+      "bin": 6,
+      "n": 692,
+      "predicted": 0.6411,
+      "observed": 0.6647
+    },
+    {
+      "bin": 7,
+      "n": 131,
+      "predicted": 0.7271,
+      "observed": 0.7481
+    },
+    {
+      "bin": 8,
+      "n": 2,
+      "predicted": 0.8059,
+      "observed": 0.5
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "pt_FF",
+      "gain": 142.928
+    },
+    {
+      "feature": "p_P09",
+      "gain": 49.59
+    },
+    {
+      "feature": "pt_FK",
+      "gain": 37.505
+    },
+    {
+      "feature": "p_P06",
+      "gain": 28.646
+    },
+    {
+      "feature": "p_P17",
+      "gain": 28.406
+    },
+    {
+      "feature": "pt_CB",
+      "gain": 26.395
+    },
+    {
+      "feature": "p_P02",
+      "gain": 24.181
+    },
+    {
+      "feature": "p_P04",
+      "gain": 22.662
+    },
+    {
+      "feature": "p_P12",
+      "gain": 22.404
+    },
+    {
+      "feature": "p_P13",
+      "gain": 21.262
+    },
+    {
+      "feature": "p_P16",
+      "gain": 20.999
+    },
+    {
+      "feature": "p_P08",
+      "gain": 19.169
+    },
+    {
+      "feature": "target_edge",
+      "gain": 18.713
+    },
+    {
+      "feature": "p_P05",
+      "gain": 17.775
+    },
+    {
+      "feature": "p_P03",
+      "gain": 17.712
+    }
+  ],
+  "params": {
+    "n_estimators": 600,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.85,
+    "colsample_bytree": 0.85,
+    "min_child_weight": 5,
+    "reg_lambda": 2.0,
+    "tree_method": "hist",
+    "eval_metric": "logloss",
+    "early_stopping_rounds": 40,
+    "random_state": 7
+  },
+  "best_iteration": 282,
+  "notes": ""
+}

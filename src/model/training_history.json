@@ -1,0 +1,28 @@
+[
+  {
+    "version": "demo-20261012020601",
+    "trained_at": "2026-10-12T02:06:01+00:00",
+    "data_source": "DEMO",
+    "n_train": 70467,
+    "n_test": 14352,
+    "roc_auc": 0.6775,
+    "brier": 0.2059,
+    "ece": 0.0118,
+    "brier_raw": 0.2052,
+    "ece_raw": 0.0074,
+    "notes": "초기 학습: Isotonic 보정 적용 → ECE 악화(과적합) 확인, 다음 회차에서 보정 방식 자동 선택 도입"
+  },
+  {
+    "version": "demo-20261012020629",
+    "trained_at": "2026-10-12T02:06:29+00:00",
+    "data_source": "DEMO",
+    "n_train": 70467,
+    "n_test": 14352,
+    "roc_auc": 0.6792,
+    "brier": 0.2052,
+    "ece": 0.0074,
+    "brier_raw": 0.2052,
+    "ece_raw": 0.0074,
+    "notes": ""
+  }
+]

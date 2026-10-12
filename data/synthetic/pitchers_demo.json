@@ -1,0 +1,534 @@
+{
+  "data_source": "DEMO",
+  "is_demo": true,
+  "seed": 20260412,
+  "n_rows": 100000,
+  "n_pitchers": 20,
+  "success_radius": 0.45,
+  "pitch_types": {
+    "FF": "직구",
+    "SL": "슬라이더",
+    "CB": "커브",
+    "CH": "체인지업",
+    "FK": "포크볼"
+  },
+  "notice": "모든 데이터는 확률 모델로 생성한 가상 데이터(DEMO)이며 실제 선수·경기와 무관합니다.",
+  "pitchers": [
+    {
+      "pitcher_id": "P01",
+      "name": "DEMO 투수 01",
+      "hand": "R",
+      "role": "선발",
+      "base_sd": 0.392,
+      "stamina": 104,
+      "ff_velocity": 147.4,
+      "bias_x": -0.019,
+      "bias_y": 0.003,
+      "repertoire": [
+        "FF",
+        "SL",
+        "FK"
+      ],
+      "usage": [
+        0.544,
+        0.306,
+        0.149
+      ],
+      "n_games": 48,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P02",
+      "name": "DEMO 투수 02",
+      "hand": "R",
+      "role": "선발",
+      "base_sd": 0.436,
+      "stamina": 81,
+      "ff_velocity": 142.1,
+      "bias_x": 0.089,
+      "bias_y": 0.048,
+      "repertoire": [
+        "FF",
+        "FK",
+        "CB"
+      ],
+      "usage": [
+        0.317,
+        0.301,
+        0.383
+      ],
+      "n_games": 48,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P03",
+      "name": "DEMO 투수 03",
+      "hand": "R",
+      "role": "선발",
+      "base_sd": 0.306,
+      "stamina": 80,
+      "ff_velocity": 143.0,
+      "bias_x": 0.012,
+      "bias_y": 0.03,
+      "repertoire": [
+        "FF",
+        "SL",
+        "CB"
+      ],
+      "usage": [
+        0.3,
+        0.193,
+        0.508
+      ],
+      "n_games": 48,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P04",
+      "name": "DEMO 투수 04",
+      "hand": "L",
+      "role": "선발",
+      "base_sd": 0.289,
+      "stamina": 89,
+      "ff_velocity": 142.4,
+      "bias_x": 0.042,
+      "bias_y": 0.035,
+      "repertoire": [
+        "FF",
+        "FK",
+        "CB",
+        "CH"
+      ],
+      "usage": [
+        0.298,
+        0.14,
+        0.362,
+        0.2
+      ],
+      "n_games": 48,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P05",
+      "name": "DEMO 투수 05",
+      "hand": "R",
+      "role": "선발",
+      "base_sd": 0.428,
+      "stamina": 89,
+      "ff_velocity": 152.0,
+      "bias_x": -0.037,
+      "bias_y": -0.062,
+      "repertoire": [
+        "FF",
+        "FK",
+        "CH"
+      ],
+      "usage": [
+        0.313,
+        0.45,
+        0.238
+      ],
+      "n_games": 48,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P06",
+      "name": "DEMO 투수 06",
+      "hand": "R",
+      "role": "선발",
+      "base_sd": 0.281,
+      "stamina": 78,
+      "ff_velocity": 148.7,
+      "bias_x": 0.052,
+      "bias_y": -0.073,
+      "repertoire": [
+        "FF",
+        "FK",
+        "CH",
+        "SL",
+        "CB"
+      ],
+      "usage": [
+        0.503,
+        0.074,
+        0.149,
+        0.123,
+        0.15
+      ],
+      "n_games": 48,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P07",
+      "name": "DEMO 투수 07",
+      "hand": "R",
+      "role": "선발",
+      "base_sd": 0.41,
+      "stamina": 105,
+      "ff_velocity": 142.0,
+      "bias_x": 0.007,
+      "bias_y": 0.018,
+      "repertoire": [
+        "FF",
+        "CB",
+        "FK",
+        "SL",
+        "CH"
+      ],
+      "usage": [
+        0.362,
+        0.16,
+        0.2,
+        0.152,
+        0.126
+      ],
+      "n_games": 48,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P08",
+      "name": "DEMO 투수 08",
+      "hand": "R",
+      "role": "선발",
+      "base_sd": 0.445,
+      "stamina": 88,
+      "ff_velocity": 150.5,
+      "bias_x": -0.031,
+      "bias_y": 0.007,
+      "repertoire": [
+        "FF",
+        "CH",
+        "FK",
+        "SL",
+        "CB"
+      ],
+      "usage": [
+        0.335,
+        0.036,
+        0.393,
+        0.205,
+        0.031
+      ],
+      "n_games": 48,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P09",
+      "name": "DEMO 투수 09",
+      "hand": "R",
+      "role": "선발",
+      "base_sd": 0.272,
+      "stamina": 90,
+      "ff_velocity": 151.5,
+      "bias_x": -0.068,
+      "bias_y": 0.062,
+      "repertoire": [
+        "FF",
+        "FK",
+        "SL",
+        "CH",
+        "CB"
+      ],
+      "usage": [
+        0.219,
+        0.042,
+        0.378,
+        0.248,
+        0.112
+      ],
+      "n_games": 48,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P10",
+      "name": "DEMO 투수 10",
+      "hand": "R",
+      "role": "선발",
+      "base_sd": 0.37,
+      "stamina": 88,
+      "ff_velocity": 147.6,
+      "bias_x": -0.036,
+      "bias_y": -0.031,
+      "repertoire": [
+        "FF",
+        "FK",
+        "CB",
+        "SL"
+      ],
+      "usage": [
+        0.316,
+        0.327,
+        0.195,
+        0.161
+      ],
+      "n_games": 48,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P11",
+      "name": "DEMO 투수 11",
+      "hand": "R",
+      "role": "선발",
+      "base_sd": 0.359,
+      "stamina": 96,
+      "ff_velocity": 138.1,
+      "bias_x": 0.037,
+      "bias_y": -0.032,
+      "repertoire": [
+        "FF",
+        "CH",
+        "FK",
+        "CB",
+        "SL"
+      ],
+      "usage": [
+        0.439,
+        0.136,
+        0.134,
+        0.197,
+        0.094
+      ],
+      "n_games": 48,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P12",
+      "name": "DEMO 투수 12",
+      "hand": "R",
+      "role": "선발",
+      "base_sd": 0.432,
+      "stamina": 91,
+      "ff_velocity": 150.3,
+      "bias_x": 0.017,
+      "bias_y": -0.086,
+      "repertoire": [
+        "FF",
+        "CB",
+        "SL"
+      ],
+      "usage": [
+        0.271,
+        0.43,
+        0.298
+      ],
+      "n_games": 48,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P13",
+      "name": "DEMO 투수 13",
+      "hand": "R",
+      "role": "구원",
+      "base_sd": 0.293,
+      "stamina": 33,
+      "ff_velocity": 148.8,
+      "bias_x": -0.032,
+      "bias_y": 0.084,
+      "repertoire": [
+        "FF",
+        "FK",
+        "CH"
+      ],
+      "usage": [
+        0.401,
+        0.221,
+        0.378
+      ],
+      "n_games": 100,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P14",
+      "name": "DEMO 투수 14",
+      "hand": "L",
+      "role": "구원",
+      "base_sd": 0.321,
+      "stamina": 30,
+      "ff_velocity": 148.6,
+      "bias_x": 0.021,
+      "bias_y": -0.018,
+      "repertoire": [
+        "FF",
+        "FK",
+        "SL",
+        "CH",
+        "CB"
+      ],
+      "usage": [
+        0.256,
+        0.227,
+        0.302,
+        0.147,
+        0.069
+      ],
+      "n_games": 100,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P15",
+      "name": "DEMO 투수 15",
+      "hand": "R",
+      "role": "구원",
+      "base_sd": 0.392,
+      "stamina": 35,
+      "ff_velocity": 145.0,
+      "bias_x": 0.045,
+      "bias_y": -0.007,
+      "repertoire": [
+        "FF",
+        "FK",
+        "CH",
+        "CB"
+      ],
+      "usage": [
+        0.487,
+        0.292,
+        0.063,
+        0.158
+      ],
+      "n_games": 100,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P16",
+      "name": "DEMO 투수 16",
+      "hand": "R",
+      "role": "구원",
+      "base_sd": 0.424,
+      "stamina": 36,
+      "ff_velocity": 149.4,
+      "bias_x": 0.116,
+      "bias_y": -0.002,
+      "repertoire": [
+        "FF",
+        "SL",
+        "FK",
+        "CH"
+      ],
+      "usage": [
+        0.243,
+        0.258,
+        0.17,
+        0.329
+      ],
+      "n_games": 100,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P17",
+      "name": "DEMO 투수 17",
+      "hand": "R",
+      "role": "구원",
+      "base_sd": 0.441,
+      "stamina": 30,
+      "ff_velocity": 141.5,
+      "bias_x": -0.081,
+      "bias_y": 0.029,
+      "repertoire": [
+        "FF",
+        "FK",
+        "CH",
+        "CB"
+      ],
+      "usage": [
+        0.491,
+        0.052,
+        0.09,
+        0.366
+      ],
+      "n_games": 100,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P18",
+      "name": "DEMO 투수 18",
+      "hand": "L",
+      "role": "구원",
+      "base_sd": 0.275,
+      "stamina": 30,
+      "ff_velocity": 149.7,
+      "bias_x": -0.011,
+      "bias_y": 0.016,
+      "repertoire": [
+        "FF",
+        "CB",
+        "FK"
+      ],
+      "usage": [
+        0.324,
+        0.577,
+        0.099
+      ],
+      "n_games": 100,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P19",
+      "name": "DEMO 투수 19",
+      "hand": "L",
+      "role": "구원",
+      "base_sd": 0.35,
+      "stamina": 45,
+      "ff_velocity": 142.6,
+      "bias_x": 0.061,
+      "bias_y": -0.036,
+      "repertoire": [
+        "FF",
+        "CH",
+        "SL",
+        "FK"
+      ],
+      "usage": [
+        0.269,
+        0.197,
+        0.308,
+        0.226
+      ],
+      "n_games": 100,
+      "is_demo": true,
+      "data_source": "DEMO"
+    },
+    {
+      "pitcher_id": "P20",
+      "name": "DEMO 투수 20",
+      "hand": "L",
+      "role": "구원",
+      "base_sd": 0.325,
+      "stamina": 36,
+      "ff_velocity": 151.9,
+      "bias_x": -0.008,
+      "bias_y": 0.02,
+      "repertoire": [
+        "FF",
+        "FK",
+        "CB"
+      ],
+      "usage": [
+        0.521,
+        0.168,
+        0.31
+      ],
+      "n_games": 100,
+      "is_demo": true,
+      "data_source": "DEMO"
+    }
+  ]
+}
